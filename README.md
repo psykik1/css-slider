@@ -1,0 +1,1 @@
+# Simple Slider using HTML and CSS

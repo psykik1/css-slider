@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 75%;
+    margin: 50px auto;
+    border: 50px solid black;
+    border-radius: 10px;
+    height: 500px;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.slider-wrapper {
+    width: 400%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    animation: sliderAnimation 16s infinite;
+}
+
+.slide {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.slide1 {
+    background-color: red;
+}
+
+.slide2 {
+    background-color: purple;
+}
+
+.slide3 {
+    background-color: yellow;
+}
+
+.slide4 {
+    background-color: green;
+}
+
+@keyframes sliderAnimation {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: 0%;
+    }
+}
